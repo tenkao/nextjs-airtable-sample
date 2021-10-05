@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    "react/no-unescaped-entities": "off", // JSX内でエンティティ文字を許可する
+    "@next/next/no-page-custom-font": "off" // 特定のページのみでカスタムフォントを使用することを許可する
+  }
+}

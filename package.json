@@ -1,0 +1,50 @@
+{
+  "name": "nextjs-project-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
+    "test": "jest",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "hygen": "hygen"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "1.0.15",
+    "@chakra-ui/react": "1.6.7",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "framer-motion": "4.1.17",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "@testing-library/cypress": "^8.0.0",
+    "@testing-library/react": "12.0.0",
+    "@types/jest": "27.0.1",
+    "@types/node": "16.4.3",
+    "@types/react": "17.0.19",
+    "babel-loader": "^8.2.2",
+    "cypress": "^8.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "hygen": "^6.1.0",
+    "jest": "27.1.0",
+    "prettier": "2.3.2",
+    "ts-jest": "27.0.5",
+    "typescript": "4.4.2"
+  }
+}
