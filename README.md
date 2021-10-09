@@ -1,3 +1,5 @@
-- [Next.js最速セットアップ](https://zenn.dev/a_da_chi/articles/181ea4ccc39580) をもとにした Next.js プロジェクトのテンプレート
-- 作業ログ的なのはこちら
-  - [Next.js プロジェクトのセットアップ](https://zenn.dev/tenkao/scraps/ca17854714bf68)
+- Airtable のデータを取得して Next.js で表示するサンプル
+- 元はこちら
+  - [Next.js で Airtable を簡易データベースとして使ってみるよ | DevelopersIO](https://dev.classmethod.jp/articles/next-js-and-airtable/)
+- 作業ログ的なの
+  - [Next.js で Airtable のデータを表示する](https://zenn.dev/tenkao/scraps/f8a278278b0289)
